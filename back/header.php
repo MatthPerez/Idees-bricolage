@@ -7,7 +7,7 @@ echo '<!DOCTYPE html>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="photographie, samuel mélia, mélia, amateur, photo, art, artiste, photograph, photography, picture, pictures">
+    content="bricolage, DIY, détournement, objets, palette, palettes, touret, tourets, maison, décoration, intérieure">
   <link rel="stylesheet" href="../../Idees-bricolage/css/style.css">
   <script src="../../Idees-bricolage/js/script.js"></script>
   <title>'.$title.'</title>
@@ -60,6 +60,7 @@ echo '<!DOCTYPE html>
       echo '
       <li class="nav-item"><a href="../../Idees-bricolage/html/gallery.php" class="nav-link '.$active1.'">Galerie</a></li>
       <li class="nav-item"><a href="../../Idees-bricolage/html/shop.php" class="nav-link '.$active2.'">Acheter</a></li>
+      <li class="nav-item"><a href="../../Idees-bricolage/html/demande_contact.php" class="nav-link '.$active3.'">Contacter</a></li>
       ';
       ?>
     </ul>

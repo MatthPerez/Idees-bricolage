@@ -9053,6 +9053,11 @@ fieldset:disabled .btn {
   word-break: break-word !important;
 }
 
+.text-black {
+  --bs-text-opacity: 1;
+  color: black;
+}
+
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
@@ -12465,6 +12470,10 @@ body {
   text-shadow: 2px 2px 4px #6b6969;
 }
 
+.small {
+  font-size: xx-small;
+}
+
 .small-10 {
   width: 10%;
 }
@@ -13143,4 +13152,8 @@ body {
 }
 
 /* Fin des interrupteurs */
+.central {
+  margin: 0 3em 0 3em;
+  background: green;
+}
 /*# sourceMappingURL=style.css.map */
